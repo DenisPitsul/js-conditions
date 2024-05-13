@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header{
+    background-color: lightgray;
+}
+.container{
+    max-width: 1200px;
+    padding: 8px 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+}
+.logo-image{
+    width: 75px;
+}
+.header-right{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.btn{
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: wheat;
+}
+.signin-btn{
+    background-color: #07b128;
+}
+.signup-btn{
+    background-color: #49cb5c;
+}
+.user-img{
+    width: 50px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.is-male{
+    border: 2px solid blue;
+}
+.is-female{
+    border: 2px solid red;
+}
+.is-unknown{
+    border: 2px solid grey;
+}
+.user-name{
+    font-size: 16px;
+    color: #07b128;
+}
